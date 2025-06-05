@@ -72,3 +72,14 @@ multiband ASL
 Ultrahigh acceleration (R=8) with array coil
 
 Codes for PV 5.1
+
+Usage:
+
+1) Save Bruker2nifti.m and Bruker2nifti_smsEPI.m to a Matlab folder.
+2) Run Bruker2nifti(‘Nscan’) from the study directory. Nscan is the scan number you want to reconstruct. The nifti file will be saved to the study directory with the protocol
+name and scan number as file name.
+3) The user might need to manually check and crop the image in the phase-encoding direction (e.g. use fslroi) to obtain the desired 3D volume.
+4) 
+Example usage:
+>> Bruker2nifti(‘6’);
+It reconstructs SMS-EPI scan E6 and save the nifti image under the study folder.
