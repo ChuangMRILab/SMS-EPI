@@ -4,7 +4,9 @@ This new multiband-EPI sequence enables simultaneous acquisition of multiple 2D 
 Multiband fMRI
 
 4 slices (4-band) can be simultaneously acquired with increased SNR;
+
 Allow drastically reduction of TR for enhancing temporal resolution;
+
 Enable isotropic resolution by acquiring many thin-slices (eg, 36 slices in 0.5s).
 
 Multiband DTI
